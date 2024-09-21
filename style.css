@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navigation__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.navigation__list {
+position: static;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 15px;
+padding: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 27px;
+}
+
+.navigation__item {
+list-style-type: none;
+color: rgb(42, 35, 103);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.logo {
+color: rgb(42, 35, 103);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 800;
+line-height: 29px;
+letter-spacing: 7%;
+text-align: left;
+text-decoration: none;
+}
+
+#rectangle__one {
+width: 7px;
+height: 17px;
+background: rgb(107, 90, 249);
+}
+
+#rectangle__two {
+width: 7px;
+height: 41px;
+background: rgb(107, 90, 249);
+}
+
+#rectangle__three {
+width: 7px;
+height: 55px;
+background: rgb(107, 90, 249);
+}
+
+.rectangle__container {
+    display: flex;
+    width: 182px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 50px;
+}
+
+.social {
+    max-width: 400px;
+    justify-content: space-evenly;
+    color: rgb(42, 35, 103);
+    font-family: Montserrat;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: right;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.call__button {
+    width: 140px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: rgb(107, 90, 249);
+    border: none;
+    border-radius: 5px;
+}
+
+.phone {
+color: rgb(42, 35, 103);
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 800;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+
