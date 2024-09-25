@@ -26,10 +26,6 @@ body {
   padding: 0px;
 }
 
-.background__img {
-z-index: 1;
-}
-
 .navigation__item {
   list-style-type: none;
   color: rgb(42, 35, 103);
@@ -111,6 +107,7 @@ h1 {
 main {
   position: absolute;
   color: rgb(42, 35, 103);
+  max-width: 1280px;
 }
 
 h1 > span {
@@ -200,4 +197,10 @@ text-align: left;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.background__img {
+  position: relative; 
+  right: 170px;
+  bottom: 20px;
 }
