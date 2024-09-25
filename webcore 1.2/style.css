@@ -3,7 +3,6 @@ body {
   font-family: "Montserrat", sans-serif;
   padding-left: 140px;
   padding-right: 140px;
-  max-width: 1280px;
 }
 
 .container {
@@ -17,15 +16,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 15px;
+  gap: 5%;
 }
-
 .navigation__list {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 27px;
   padding: 0px;
+}
+
+.background__img {
+z-index: 1;
 }
 
 .navigation__item {
@@ -37,10 +39,6 @@ body {
   text-align: left;
 }
 
-.navigation__link {
-  text-decoration: none;
-}
-
 .logo {
   color: rgb(42, 35, 103);
   font-family: Montserrat;
@@ -50,6 +48,32 @@ body {
   letter-spacing: 7%;
   text-align: left;
   text-decoration: none;
+}
+
+#rectangle__one {
+  width: 7px;
+  height: 17px;
+  background: rgb(107, 90, 249);
+}
+
+#rectangle__two {
+  width: 7px;
+  height: 41px;
+  background: rgb(107, 90, 249);
+}
+
+#rectangle__three {
+  width: 7px;
+  height: 55px;
+  background: rgb(107, 90, 249);
+}
+
+.rectangle__container {
+  display: flex;
+  width: 182px;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 50px;
 }
 
 .social {
@@ -77,7 +101,6 @@ body {
 
 h1 {
   font-family: Montserrat;
-  width: 653px;
   font-size: 36px;
   font-weight: 700;
   line-height: 44px;
@@ -88,7 +111,6 @@ h1 {
 main {
   position: absolute;
   color: rgb(42, 35, 103);
-  margin: 0;
 }
 
 h1 > span {
@@ -97,7 +119,6 @@ h1 > span {
 
 p {
   font-family: Montserrat;
-  width: 619px;
   font-size: 16px;
   font-weight: normal;
   line-height: 20px;
@@ -114,7 +135,6 @@ p > span {
 p:nth-child(2) {
 font-family: Montserrat;
 font-size: 14px;
-width: 472px;
 font-weight: 600;
 line-height: 137.4%;
 letter-spacing: 0%;
@@ -158,7 +178,6 @@ text-align: left;
   font-weight: 800;
   letter-spacing: 0%;
   text-align: left;
-  text-decoration: none;
 }
 
 .phone__time {
@@ -181,48 +200,4 @@ text-align: left;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.background__img {
-  position: fixed; 
-width: 855px;
-height: 569px;
-left: 565px;
-right: -140px;
-top: 59px;
-bottom: -59px;
-}
-
-.laptop__nav {
-  display: none;
-}
-
-@media (max-width: 1407px) {
-  .container, .social, .navigation__container {
-    display: none;
-  }
-  .laptop__nav {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    align-items: center;
-}
-  body {
-    padding: 0;
-  }
-  main {
-    padding: 0;
-    padding-left: 10px;
-  }
-  h1 {
-    font-size: 24px;
-    width: 653px;
-  }
-  p {
-    font-size: 12px;
-    width: 357px;
-  }
-  p:nth-child(2) {
-    width: 287px;
-  }
 }
