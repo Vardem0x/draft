@@ -88,6 +88,8 @@ main {
 
 h1 > span {
   color: rgb(107, 90, 249);
+  padding-bottom: 33px;
+  padding-top: 67px;
 }
 
 .paragraph__one {
@@ -99,7 +101,7 @@ h1 > span {
   letter-spacing: 0%;
   text-align: left;
   color: rgb(42, 35, 103);
-  padding-bottom: 90px;
+  padding-bottom: 116px;
 }
 
 p > span {
@@ -130,7 +132,7 @@ p > span {
   line-height: 15px;
   letter-spacing: 0%;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .call__button {
@@ -189,11 +191,122 @@ p > span {
   width: 855px;
   height: 569px;
   left: 400px;
+  top: -50px;
+  z-index: -1;
 }
 
 .burger,
 .mobile__button {
   display: none;
+}
+
+@media (max-width: 769px) {
+  .navigation__list,
+  .social__contact,
+  .phone,
+  .phone__time {
+    display: none;
+  }
+  .navigation__container {
+    width: 786px;
+    padding-left: 41px;
+    padding-right: 32px;
+    padding-top: 23px;
+  }
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  header {
+    width: 768px;
+    height: 62px;
+  }
+  .call__button {
+    display: block;
+    text-indent: -9999em;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 62px;
+    height: 38.75px;
+  }
+  .logo {
+    width: 177.61px;
+    height: 55;
+  }
+  .burger {
+    display: flex;
+    width: 41px;
+    height: 55px;
+  }
+  .call__button {
+    display: flex;
+  }
+  .mobile__button {
+    display: flex;
+        padding-top: 11px;
+        padding-left: 23px;
+    padding-right: 17px;
+      padding-bottom: 7px;
+      border: none;
+  }
+  .background__img {
+width: 569px;
+height: 378px;
+  }
+  .background__img > img {
+    position: absolute;
+    width: 569px;
+    height: 378px;
+    left: -133px;
+    right: -66px;
+    top: 114px;
+    bottom: 145px;
+  }
+  h1 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 10px;
+width: 653px;
+height: 29px;
+  }
+  .paragraph__one {
+width: 356px;
+height: 45px;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: left;
+padding-bottom: 54px;
+padding-left: 10px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+  }
+  .price {
+    width: 275px;
+    height: 60px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .paragraph__two {
+    width: 287px;
+    height: 97px;
+font-size: 12px;
+font-weight: 600;
+line-height: 137.4%;
+letter-spacing: 0%;
+text-align: left;
+    padding-left: 11px;
+    padding-top: 10px;
+  }
+  .paragraph__two span::after {
+    content: "\A";
+    white-space: pre-line;
+  }
 }
 
 @media (max-width: 361px) {
@@ -202,6 +315,12 @@ p > span {
   .phone,
   .phone__time {
     display: none;
+  }
+  img {
+    max-width: 100%;
+  }
+  .main__section {
+    padding-left: 0;
   }
   .call__button {
     display: block;
@@ -224,34 +343,37 @@ p > span {
   }
   .mobile__button {
     display: flex;
+    width: 16px;
+    height: 16px;
     padding-top: 8px;
-    padding-left: 17px;
+    padding-left: 19px;
     padding-right: 17px;
     padding-bottom: 7px;
+    border: none;
   }
   .navigation__container {
     display: flex;
-    justify-content: top;
-  }
-  .navigation {
-    padding-left: 7px;
+    width: 360px;
+    padding-top: 11px;
+    padding-left: 10px;
   }
   header {
     width: 360px;
     height: 62px;
+    padding-left: 11px;
+    padding-left: 0;
+    padding-right: 0;
   }
   body {
     padding: 0;
   }
-  .main__section {
-    padding-left: 7px;
-  }
-  .background__img {
+  .background__img,
+  .background__img > img {
     position: absolute;
-    top: 65px;
-    width: 447px;
-    height: 299px;
-    left: -35px;
+    top: 10px;
+    left: -16px;
+width: 447px;
+height: 299px;
   }
   h1 {
     font-family: Montserrat;
@@ -260,18 +382,27 @@ p > span {
     width: 327px;
     height: 44px;
     line-height: 22px;
+    padding-left: 10px;
+    padding-top: 21px;
   }
   .paragraph__one {
     width: 356px;
     height: 45px;
     font-size: 12px;
     line-height: 15px;
-    padding-top: 274px;
-    padding-bottom: 100px;
+    padding-top: 250px;
+    padding-left: 7px;
+    padding-bottom: 50px;
+    text-shadow: none;
   }
   .price {
     margin-left: 42px;
     margin-right: 43px;
+    margin-bottom: 0;
+  }
+  .paragraph__two span::after {
+    content: "\A";
+    white-space: pre-line;
   }
   .paragraph__two {
     width: 340px;
@@ -281,5 +412,9 @@ p > span {
     line-height: 137.4%;
     letter-spacing: 0%;
     text-align: center;
+    padding-top: 9px;
+  }
+  p.paragraph__two > span {
+    font-weight: 500;
   }
 }
