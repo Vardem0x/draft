@@ -1,0 +1,54 @@
+@media (min-width: 768px) and (max-width: 1280px) {
+  .logo {
+    width: 177px;
+    height: 55px;
+  }
+  .call__containter,
+  .call__button {
+    width: 62px;
+    height: 38px;
+  }
+  .burger {
+    width: 41px;
+    height: 22px;
+  }
+  .navigation__container {
+    padding-left: 41px;
+    padding-right: 32px;
+    padding-top: 23px;
+  }
+  .background__img {
+    display: flex;
+    top: -40px;
+    right: 20px;
+    order: 2;
+    position: relative;
+    width: 75%;
+    height: 75%;
+  }
+  .price {
+    width: 275px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  .main__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .price__container {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+  }
+  .main__section {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .main__section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+  }
+}

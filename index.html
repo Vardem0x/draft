@@ -1,55 +1,95 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="fonts.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="media-laptop.css" />
     <title>Millenium</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <header>
-        <nav class="navigation">
-          <div class="navigation__container">
-            <img class="burger" src="./svgs/burger.svg">
-            <a href="#"><img class="logo" src="./svgs/logo.svg"></a>
-            <ul class="navigation__list">
-              <li class="navigation__item">
-                <a class="navigation__link" href="#">Главная</a>
+      <nav class="navigation">
+        <div class="navigation__container">
+          <img class="burger" src="./svgs/burger.svg" />
+          <a class="logo" href="#"><img class="logo__img" src="./svgs/logo.svg" /></a>
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Главная</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Цены</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Кейсы и отзывы</a>
+            </li>
+            <li class="navigation__item" href="#">
+              <a class="navigation__link" href="#">Контакты</a>
+            </li>
+            <li class="social__contact">
+              <a class="telegram" href="#">
+                <img src=".\svgs\Telegram.svg" width="18px" height="18px"
+              /></a>
+              <a class="whatsapp" href="#"
+                ><img src=".\svgs\Whatsapp.svg" width="18px" height="18px"
+              /></a>
+            </li>
+            <li class="social__contact">
+              <a class="phone" href="tel:+74955556565">+ 7 (495) 555 65 65</a>
+              <br /><span class="phone__time">Ежедневно с 09:00 до 18:00</span>
+            </li>
+            <div class="call__container">
+              <li>
+                <button class="call__button">
+                  Заказать звонок<img
+                    class="mobile__button"
+                    src=".\svgs\callbutton.svg"
+                  />
+                </button>
               </li>
-              <li class="navigation__item">
-                <a class="navigation__link" href="#">Цены</a>
-              </li>
-              <li class="navigation__item">
-                <a class="navigation__link" href="#">Кейсы и отзывы</a></li>
-                <li class="navigation__item" href="#">
-                    <a class="navigation__link" href="#">Контакты</a>
-                </li>
-                <li class="social__contact">
-                <a class="telegram" href="#">
-                  <img src=".\svgs\Telegram.svg" width="18px" height="18px"></a>
-                  <a class="whatsapp" href="#"><img src=".\svgs\Whatsapp.svg" width="18px" height="18px"></a>
-                </li>
-                <li><a class="phone" href="tel:+74955556565">+ 7 (495) 555 65 65</a><br><span class="phone__time">Ежедневно с 09:00 до 18:00</span>
-                </li>
-                <div class="call__button-mobile"><li><button class="call__button">Заказать звонок<img class="mobile__button" src=".\svgs\callbutton.svg"></button></li></div></ul></div>
-          </nav>
+            </div>
+          </ul>
+        </div>
+      </nav>
     </header>
-  </div>
     <main>
-    <section>
-      <div class="main">
-            <h1>Разработка интернет-магазинов <span class="accent__text">на 1С-Битрикс</span></h1>
-           <img class="background__img" src=".\svgs\kastruli.png">
-           <div class="main__section"><p class="paragraph__one">Разработаем интернет-магазин за 30 дней с уникальным дизайном и продуманной структурой который <span class="accent__text">выделит вас на фоне конкурентов</span></p>
-            <button class="price">Узнать стоимость</button>
-            <p class="paragraph__two"><span class="accent__text">Оставьте заявку и получите бесплатную консультацию от специалиста, полный расчет стоимости разработки и бонус:</span> «15 сервисов, 
-            которые покажут стратегию продвижения конкурентов, всё об их выдаче в поиске и не только»</p></div></div>
-</section>
-</main>
-</body>
+      <section>
+        <div class="main">
+          <h1>
+            Разработка интернет-магазинов
+            <span class="accent__text">на 1С-Битрикс</span>
+          </h1>
+          <div class="main__section"><img class="background__img" src=".\svgs\kastruli.png" />
+          <div class="main__text">
+            <div class="main__section-two"><p class="paragraph__one">
+              Разработаем интернет-магазин за 30 дней с уникальным дизайном и
+              продуманной структурой который
+              <span class="accent__text">выделит вас на фоне конкурентов</span>
+            </p>
+           <div class="price__container">
+              <button class="price">Узнать стоимость</button>
+            </div>
+            </div>
+            <p class="paragraph__two">
+              <span class="accent__text"
+                >Оставьте заявку и получите бесплатную консультацию от
+                специалиста, полный расчет стоимости разработки и бонус:</span
+              >
+              «15 сервисов, которые покажут стратегию продвижения конкурентов,
+              всё об их выдаче в поиске и не только»
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

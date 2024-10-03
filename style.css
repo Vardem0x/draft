@@ -18,10 +18,17 @@ h1 {
   padding-left: 15px;
 }
 
-.main__section {
+.main__text {
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 10px;
+}
+
+.main__section-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 10px;
 }
 
@@ -33,15 +40,19 @@ h1 {
   padding: 15px 10px;
 }
 
-.logo {
+.logo__img {
   width: 113px;
   height: 35px;
 }
 
-.call__button-mobile {
-  display: grid;
-  justify-self: center;
-  align-self: center;
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.call__container {
+  display: flex;
+  justify-content: flex-end;
 }
 .call__button {
   display: flex;
