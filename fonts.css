@@ -1,0 +1,77 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(42, 35, 103);
+}
+
+.accent__text {
+  color: rgb(107, 90, 249);
+  font-weight: 700;
+}
+
+.paragraph__one {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.paragraph__two {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 137.4%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.paragraph__two > span {
+  font-weight: 500;
+}
+
+.price {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+  }
+  .paragraph__one {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+  .paragraph__one > .accent__text {
+    font-weight: 700;
+  }
+  .paragraph__two {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 137%;
+    text-align: left;
+  }
+  .paragraph__two > .accent__text {
+    font-weight: 600;
+  }
+}
