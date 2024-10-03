@@ -1,7 +1,7 @@
 .social__contact,
 .phone,
 .phone__time,
-.navigation__list {
+.navigation__item {
   display: none;
 }
 
@@ -38,6 +38,11 @@ h1 {
   height: 35px;
 }
 
+.call__button-mobile {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+}
 .call__button {
   display: flex;
   justify-content: center;
