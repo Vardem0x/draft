@@ -40,8 +40,12 @@ p {
 }
 
 ul,
-ul li {
+ul li,
+li {
   list-style: none;
+  list-style-type: none;
+  width: 0;
+  height: 0;
 }
 
 img {
