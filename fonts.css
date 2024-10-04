@@ -51,7 +51,7 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
-@media (min-width: 768px) and (max-width: 1280px) {
+@media (min-width: 768px) and (max-width: 1149px) {
   h1 {
     font-size: 24px;
     font-weight: 700;
@@ -61,6 +61,7 @@ h1 {
     font-size: 12px;
     font-weight: 400;
     line-height: 15px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
   .paragraph__one > .accent__text {
     font-weight: 700;
@@ -73,5 +74,72 @@ h1 {
   }
   .paragraph__two > .accent__text {
     font-weight: 600;
+  }
+}
+
+@media (min-width: 1150px) {
+  .call__button {
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 15px;
+    color: rgb(255, 255, 255);
+  }
+  .navigation__item {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: rgb(42, 35, 103);
+  }
+  .phone {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    color: rgb(42, 35, 103);
+  }
+  .phone__time {
+    color: rgb(42, 35, 103);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  h1 {
+    width: 653px;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 15px;
+  }
+  .paragraph__one {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .paragraph__two {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 137.4%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 472px;
+    height: 77px;
+  }
+  .paragraph__two > .accent__text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 137.4%;
+    letter-spacing: 0%;
+    text-align: left;
   }
 }
