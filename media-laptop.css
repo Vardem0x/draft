@@ -59,3 +59,10 @@
     left: 70px;
   }
 }
+
+@media (min-width: 1060px) and (max-width: 1149px) {
+  .background__img {
+    width: 70%;
+    right: 50px;
+  }
+}
