@@ -1,13 +1,14 @@
-.social__contact,
 .phone,
 .phone__time,
-.navigation__item {
+.navigation__item,
+.telegram,
+.whatsapp,
+.social {
   display: none;
 }
 
 body {
   width: 100%;
-  border: 5px solid red;
 }
 
 h1 {
@@ -69,7 +70,6 @@ h1 {
   height: 100%;
   margin: auto;
   top: -20px;
-  border: 5px solid green;
 }
 
 .paragraph__one {

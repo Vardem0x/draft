@@ -49,20 +49,27 @@
   }
   .navigation__list {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 55px;
   }
   .navigation__container {
     padding: 0;
     display: grid;
-    grid-template-columns: 181px 1fr;
+    grid-template-columns: 181px 1fr auto;
     align-content: center;
     align-items: center;
   }
-  .social__contact {
-    height: 30px;
+  .social {
     display: flex;
     gap: 10px;
+    align-items: start;
+  }
+  .whatsapp,
+  .telegram {
+    display: flex;
+    align-self: flex-start;
+    padding-top: 5px;
   }
   .price {
     width: 275px;
