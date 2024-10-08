@@ -1,9 +1,8 @@
 .phone,
 .phone__time,
 .navigation__item,
-.telegram,
-.whatsapp,
-.social {
+.social__container,
+.navigation__list {
   display: none;
 }
 

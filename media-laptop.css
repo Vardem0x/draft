@@ -19,12 +19,11 @@
   }
   .background__img {
     display: flex;
-    top: -40px;
-    right: 20px;
     order: 2;
-    position: relative;
-    width: 75%;
-    height: 75%;
+  }
+  .img__container {
+    display: flex;
+    order: 2;
   }
   .price {
     width: 275px;
@@ -33,6 +32,7 @@
   }
   .main__text {
     display: flex;
+    width: 600px;
     flex-direction: column;
     align-items: flex-start;
   }
@@ -49,20 +49,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: start;
     gap: 100px;
-  }
-}
-
-@media (min-width: 700px) and (max-width: 767px) {
-  .background__img {
-    width: 80%;
-    left: 70px;
-  }
-}
-
-@media (min-width: 1060px) and (max-width: 1149px) {
-  .background__img {
-    width: 70%;
-    right: 50px;
   }
 }
