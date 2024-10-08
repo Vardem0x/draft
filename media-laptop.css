@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 1149px) {
+@media (min-width: 768px) and (max-width: 1150px) {
   .logo__img {
     width: 177px;
     height: 55px;
@@ -7,6 +7,9 @@
   .call__button {
     width: 62px;
     height: 38px;
+  }
+  .paragraph_two {
+    text-align: left;
   }
   .burger {
     width: 41px;
@@ -51,5 +54,20 @@
     justify-content: space-between;
     align-items: start;
     gap: 100px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1150px) {
+  .background__img {
+    display: flex;
+    order: 2;
+    width: 90%;
+  }
+  .img__container {
+    display: flex;
+    order: 2;
+    position: relative;
+    bottom: 30px;
+    right: 50px;
   }
 }
