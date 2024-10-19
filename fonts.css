@@ -51,6 +51,30 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
+.submenu__item {
+  color: rgb(42, 35, 103);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0%;
+}
+
+.submenu__contacts-container {
+  width: 178px;
+  height: 98px;
+  color: rgb(107, 90, 249);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+.submenu__contacts {
+  text-align: center;
+}
+
 @media (min-width: 768px) and (max-width: 1149px) {
   h1 {
     font-size: 24px;

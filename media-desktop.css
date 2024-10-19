@@ -1,4 +1,8 @@
 @media (min-width: 1150px) {
+  menu,
+  .burger__menu {
+    display: none;
+  }
   body {
     max-width: 1280px;
     margin: 0 auto;
