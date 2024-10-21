@@ -23,13 +23,10 @@ body {
   width: 100%;
 }
 
-h1 {
-  padding-top: 20px;
-}
-
 .main {
   padding-right: 15px;
   padding-left: 15px;
+  padding-top: 20px;
 }
 
 .main__text {
@@ -116,6 +113,11 @@ h1 {
   flex-direction: column;
   align-items: center;
   width: 60%;
+}
+
+.submenu__item-container {
+  display: flex;
+  flex-direction: column;
   gap: 28px;
 }
 
@@ -136,6 +138,11 @@ h1 {
   flex-direction: column;
   align-self: center;
   position: absolute;
+  text-align: center;
   top: 605px;
   gap: 32px;
+}
+
+.submenu__item > a:visited {
+  color: rgb(42, 35, 103);
 }

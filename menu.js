@@ -1,5 +1,5 @@
 let burger = document.querySelector(".burger__menu");
-let burgerShow = false;
+let burgerShow = true;
 let overlay = document.querySelector(".overlay");
 let close = document.querySelector(".close");
 let closeShow = false;
@@ -11,7 +11,7 @@ burger.addEventListener("click", () => {
     burgerShow = true;
     overlay.style.transform = "scale(0)";
     shadow.classList.remove("shadow");
-  } else {
+  } else if (burgerShow == true) {
     burger.style.backgroundImage = "url('./svgs/burger-menu.svg')";
     burgerShow = false;
     overlay.style.transform = "scale(1)";

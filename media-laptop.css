@@ -85,8 +85,8 @@
   .close {
     width: 14px;
     height: 14px;
-    align-self: start;
-    margin-left: 14px;
+    align-self: end;
+    margin-right: 14px;
     margin-top: 24px;
   }
 
