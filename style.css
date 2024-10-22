@@ -113,12 +113,13 @@ body {
   flex-direction: column;
   align-items: center;
   width: 60%;
+  gap: 200px;
 }
 
-.submenu__item-container {
+.submenu__item-container > ul {
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 25px;
 }
 
 .submenu__item {
@@ -133,12 +134,11 @@ body {
   margin-top: 24px;
 }
 
-.submenu__contacts-container {
+.submenu__contacts-container > ul {
   display: flex;
   flex-direction: column;
-  align-self: center;
-  position: absolute;
   text-align: center;
+  gap: 32px;
   top: 605px;
   gap: 32px;
 }
