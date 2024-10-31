@@ -40,7 +40,8 @@ h1 {
   font-weight: 500;
 }
 
-.price {
+.price,
+.price__two {
   font-family: Montserrat;
   font-size: 12px;
   font-weight: 800;
@@ -76,6 +77,35 @@ h1 {
   color: rgb(107, 90, 249);
 }
 
+.advantages__title {
+  color: rgb(42, 35, 103);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.advantages__info {
+  color: rgb(42, 35, 103);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.title {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(42, 35, 103);
+}
+
 @media (min-width: 768px) and (max-width: 1149px) {
   h1 {
     font-size: 24px;
@@ -99,6 +129,16 @@ h1 {
   }
   .paragraph__two > .accent__text {
     font-weight: 600;
+  }
+
+  .title {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(42, 35, 103);
   }
 }
 
@@ -166,5 +206,35 @@ h1 {
     line-height: 137.4%;
     letter-spacing: 0%;
     text-align: left;
+  }
+  .title {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(42, 35, 103);
+  }
+  .advantages__title {
+    color: rgb(42, 35, 103);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .advantages__info {
+    color: rgb(42, 35, 103);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .title {
+    display: block;
   }
 }
