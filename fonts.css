@@ -13,6 +13,142 @@ h1 {
   color: rgb(42, 35, 103);
 }
 
+h3 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-left: 10px;
+  color: rgb(42, 35, 103);
+}
+
+.business__text {
+  color: rgb(42, 35, 103);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.call__title {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 auto;
+  width: 259px;
+  height: 44px;
+  margin-bottom: 21px;
+}
+
+.call__text {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 277px;
+  height: 45px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.call__input {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+}
+
+h4 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(42, 35, 103);
+  margin-top: 100px;
+  margin-bottom: 30px;
+  padding-left: 12px;
+}
+
+h5 {
+  color: rgb(42, 35, 103);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-left: 12px;
+  margin-bottom: 30px;
+}
+
+.step__text {
+  color: rgb(42, 35, 103);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-left: 12px;
+  margin-bottom: 35px;
+  padding-right: 28px;
+}
+
+.step__number {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.step__title {
+  color: rgb(42, 35, 103);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.company__title {
+  color: rgb(42, 35, 103);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.company__text {
+  color: rgb(42, 35, 103);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
 .accent__text {
   color: rgb(107, 90, 249);
   font-weight: 700;
@@ -41,7 +177,8 @@ h1 {
 }
 
 .price,
-.price__two {
+.price__two,
+.price__three {
   font-family: Montserrat;
   font-size: 12px;
   font-weight: 800;
@@ -104,6 +241,52 @@ h1 {
   letter-spacing: 0%;
   text-align: left;
   color: rgb(42, 35, 103);
+}
+
+.list__name {
+  color: rgb(107, 90, 249);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.list {
+  padding-left: 30px;
+}
+
+.list > li {
+  padding: 0;
+  list-style-type: disc;
+}
+
+.list > ::marker {
+  font-size: 20px;
+  color: rgb(42, 35, 103);
+}
+
+.prize__title {
+  color: rgb(159, 159, 159);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.prize__text {
+  color: rgb(42, 35, 103);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
 @media (min-width: 768px) and (max-width: 1149px) {
