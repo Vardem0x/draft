@@ -335,6 +335,11 @@ aside {
   gap: 46px;
 }
 
+.call {
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
 .call__btn {
   display: block;
   width: 268px;
@@ -343,6 +348,13 @@ aside {
   background: rgb(255, 255, 255);
   margin: 0 auto;
   margin-top: 57px;
+}
+
+.call__checkbox {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 10px;
 }
 
 .steps__container {
@@ -424,4 +436,68 @@ aside {
 
 .company__text {
   margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.business__picture {
+  width: fit-content;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.business {
+  overflow: hidden;
+}
+
+.footer__container {
+  background-color: rgb(42, 35, 103);
+  height: 624px;
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  display: grid;
+  justify-items: center;
+}
+
+.footer__line {
+  background-color: rgb(107, 90, 249);
+  height: 1px;
+  width: 90%;
+}
+
+.footer__messanger {
+  width: 90px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-self: center;
+}
+
+.footer__logo {
+  width: 156.6px;
+  height: 55px;
+}
+
+.footer__call {
+  display: block;
+  width: 268px;
+  height: 60px;
+  border-radius: 5px;
+  background: rgb(107, 90, 249);
+}
+
+.footer__copywrite {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }

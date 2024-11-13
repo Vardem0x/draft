@@ -24,6 +24,28 @@ h3 {
   color: rgb(42, 35, 103);
 }
 
+.call__btn {
+  color: rgb(107, 90, 249);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0%;
+}
+
+.call__checkbox {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 12.5px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+}
+
+.form__text {
+  color: rgb(155, 143, 255);
+}
+
 .business__text {
   color: rgb(42, 35, 103);
   font-family: Montserrat;
@@ -32,6 +54,13 @@ h3 {
   line-height: 15px;
   letter-spacing: 0%;
   text-align: left;
+}
+
+.company__background {
+  border-radius: 20px;
+  background-color: rgb(244, 248, 255);
+  margin-left: 14px;
+  margin-right: 6px;
 }
 
 .call__title {
@@ -46,6 +75,7 @@ h3 {
   width: 259px;
   height: 44px;
   margin-bottom: 21px;
+  padding-top: 20px;
 }
 
 .call__text {
@@ -59,7 +89,9 @@ h3 {
   width: 277px;
   height: 45px;
   margin: 0 auto;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .call__input {
@@ -287,6 +319,59 @@ h5 {
   line-height: 15px;
   letter-spacing: 0%;
   text-align: center;
+}
+
+.footer__call {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0%;
+}
+
+.footer__text {
+  text-align: center;
+}
+
+.footer__adress {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 310px;
+}
+
+.footer__contact {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 138px;
+}
+
+.footer__copywrite {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.footer__copywrite > p {
+  width: 221px;
+}
+
+.footer__copywrite > a {
+  text-decoration: underline;
 }
 
 @media (min-width: 768px) and (max-width: 1149px) {
