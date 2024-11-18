@@ -120,7 +120,8 @@ body {
   flex-direction: column;
   align-items: center;
   width: 60%;
-  gap: 200px;
+  height: 80%;
+  justify-content: space-between;
 }
 
 .submenu__item-container > ul {
@@ -309,14 +310,11 @@ aside {
   display: block;
   margin: 0 auto;
   margin-bottom: 70px;
+  width: 429px;
+  height: 607px;
 }
 
-.call {
-  border-radius: 20px;
-  background: rgb(107, 90, 249);
-}
-
-.call__title {
+.__title {
   margin-bottom: 21px;
 }
 
@@ -329,15 +327,21 @@ aside {
   margin-left: 26px;
 }
 
+.call__input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
 .call__container-two {
   display: flex;
   flex-direction: column;
   gap: 46px;
+  align-items: center;
 }
 
 .call {
-  margin-left: 20px;
   margin-right: 10px;
+  border-radius: 20px;
+  background: rgb(107, 90, 249);
 }
 
 .call__btn {
@@ -444,9 +448,7 @@ aside {
 .company__container-text {
   border-radius: 20px;
   background: rgb(244, 248, 255);
-  margin-left: 10px;
-  margin-right: 5px;
-  padding-top: 40px;
+  padding: 0;
 }
 
 .company__text {
@@ -532,24 +534,34 @@ aside {
   gap: 30px;
 }
 
+.company__background {
+  position: relative;
+}
+
 .background__picture-one {
   position: absolute;
-  left: 120px;
+  top: -8%;
 }
 
 .background__picture-two {
   position: absolute;
-  left: 120px;
+  left: 80%;
+  top: -5%;
 }
 
 .background__picture-three {
   position: absolute;
+  top: 82%;
+  left: 10%;
 }
 
 .background__picture-four {
   position: absolute;
+  top: 95%;
+  left: 80%;
 }
 
 .background__picture-five {
   position: absolute;
+  top: 100%;
 }

@@ -43,4 +43,6 @@ window.addEventListener("DOMContentLoaded", function () {
     upSwiper = null;
     downSwiper = null;
   }
+  let test = document.querySelector(".swiper-slide");
+  test.style.removeProperty("width");
 });

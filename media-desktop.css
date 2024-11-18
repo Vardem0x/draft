@@ -194,6 +194,114 @@
     border: none;
     background: rgb(107, 90, 249);
     margin-top: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 165px;
+  }
+  .price__three {
+    margin-bottom: 150px;
+  }
+  .list__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .list__block:first-child {
+    order: 0;
+  }
+  .list__block:nth-child(2) {
+    order: 1;
+  }
+  .list__block:nth-child(3) {
+    order: 4;
+  }
+  .list__block:nth-child(4) {
+    order: 3;
+  }
+  .list__block:nth-child(5) {
+    order: 4;
+  }
+  .list__block:nth-child(6) {
+    order: 6;
+  }
+  .list__block:nth-child(7) {
+    order: 7;
+  }
+  .list__block:nth-child(8) {
+    order: 6;
+  }
+  .list__block {
+    align-self: center;
+  }
+  .phone_1,
+  .phone_2,
+  .laptop_1,
+  .laptop_2 {
+    width: 90%;
+    height: 90%;
+  }
+  .business__container {
+    display: flex;
+  }
+  .business__img > img {
+    width: 667px;
+    height: 556px;
+  }
+  .step__number {
+    width: 53px;
+    height: 53px;
+  }
+  .step__header {
+    display: flex;
+    gap: 126px;
+    padding-left: 60px;
+  }
+  .business__picture {
+    width: 1440px;
+    height: 590px;
+  }
+  .call__btn {
+    width: 341px;
+    height: 60px;
+  }
+  .company__background {
+    display: grid;
+    grid-template-columns: 1fr 500px;
+    column-gap: 44px;
+    align-items: baseline;
+    /* display: flex;
+    flex-direction: row;
+    column-gap: 44px; */
+  }
+  .call {
+    width: 472px;
+    margin-bottom: 187px;
+    margin-top: 70px;
+  }
+  .call__title {
+    padding: 0;
+    margin-top: 50px;
+    width: 345px;
+  }
+  .call__text {
+    padding: 0;
+    margin-top: 75px;
+  }
+  .call__input {
+    margin: 0;
+  }
+  .company__title span {
+    display: block;
+    text-align: left;
+  }
+  .company__title {
+    text-align: left;
+    padding-left: 20px;
+  }
+  .company__text {
+    padding-left: 20px;
+  }
+  .background__picture-five {
+    width: 430px;
+    height: 219px;
+    top: 75%;
   }
 }
