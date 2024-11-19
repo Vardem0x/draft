@@ -40,3 +40,20 @@ close.addEventListener("click", () => {
     body.style.height = "100%";
   }
 });
+
+shadow.addEventListener("click", () => {
+  if (closeShow == false) {
+    burgerShow = true;
+    overlay.style.transform = "scale(0)";
+    burger.style.backgroundImage = "url('./svgs/burger.svg')";
+    shadow.classList.remove("shadow");
+    body.style.overflow = "auto";
+    body.style.height = "auto";
+  } else {
+    burgerShow = false;
+    overlay.style.transform = "scale(1)";
+    shadow.classList.add("shadow");
+    body.style.overflow = "hidden";
+    body.style.height = "100%";
+  }
+});

@@ -24,16 +24,16 @@
         <a class="logo" href="#"><img class="logo__img" src="./svgs/logo.svg" alt="logo" /></a>
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a class="navigation__link" href="#">Главная</a>
+            <a class="navigation__link" href="#main">Главная</a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link" href="#">Цены</a>
+            <a class="navigation__link" href="#price">Цены</a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link" href="#">Кейсы и отзывы</a>
+            <a class="navigation__link" href="#steps">Кейсы и отзывы</a>
           </li>
-          <li class="navigation__item" href="#">
-            <a class="navigation__link" href="#">Контакты</a>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#footer">Контакты</a>
           </li>
         </ul>
         <div class="social">
@@ -61,13 +61,13 @@
         <div class="submenu">
           <div class="submenu__item-container">
             <ul>
-              <li class="submenu__item"><a href="#">Главная</a></li>
-              <li class="submenu__item"><a href="#">Интернет-магазины, которые продают</a></li>
-              <li class="submenu__item"><a href="#">Что вы получаете</a></li>
-              <li class="submenu__item"><a href="#">Контакты</a></li>
-              <li class="submenu__item"><a href="#">Исследуем бизнес</a></li>
-              <li class="submenu__item"><a href="#">Этапы</a></li>
-              <li class="submenu__item"><a href="#">Обратная связь</a></li>
+              <li class="submenu__item"><a href="#main">Главная</a></li>
+              <li class="submenu__item"><a href="#sell">Интернет-магазины, которые продают</a></li>
+              <li class="submenu__item"><a href="#received">Что вы получаете</a></li>
+              <li class="submenu__item"><a href="#price">Контакты</a></li>
+              <li class="submenu__item"><a href="#business">Исследуем бизнес</a></li>
+              <li class="submenu__item"><a href="#steps">Этапы</a></li>
+              <li class="submenu__item"><a href="#footer">Обратная связь</a></li>
             </ul>
           </div>
           <div class="submenu__contacts-container">
@@ -81,7 +81,8 @@
   </aside>
   <main>
     <section>
-      <div class="main">
+      <a name="main"></a>
+      <div class="home">
         <h1>
           Разработка интернет-магазинов
           <span class="accent__text">на 1С-Битрикс</span>
@@ -109,6 +110,7 @@
         </div>
     </section>
     <section>
+      <a name="sell"></a>
       <h2 class="title">Мы создаем интернет-магазины, <span class="accent__text">которые продают<span></h2>
       <div class="card-container">
       <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
@@ -181,10 +183,11 @@
     </div>
     </section>
     <section>
+      <a name="received"></a>
       <h3>Что вы <span class="accent__text">получаете?</span></h3>
       <div class="list__container">
         <div class="list__block">
-        <img class="list__img phone_1" src="./svgs/phone_1.svg"></div>
+        <img class="list__img phone_1" src="./svgs/phone_1.svg" alt="Телефон"></div>
         <div class="list__block">
         <p class="list__name">Каталог товаров<p>
         <ul class="list list-one">
@@ -195,7 +198,7 @@
         </ul>
       </div>
       <div class="list__block">
-        <img class="list__img phone_2" src="./svgs/phone-rinok.svg">
+        <img class="list__img phone_2" src="./svgs/phone-rinok.svg" alt="Мобильный рынок">
       </div>
         <div class="list__block">
         <p class="list__name">Оформление заказа</p>
@@ -208,7 +211,7 @@
         </ul>
         </div>
         <div class="list__block">
-        <img class="list__img laptop_1" src="./svgs/laptop.svg">
+        <img class="list__img laptop_1" src="./svgs/laptop.svg" alt="Ноутбук">
         </div>
         <div class="list__block">
         <p class="list__name">Интеграции</p>
@@ -218,7 +221,7 @@
           <li>Интеграция со службами доставки СДЭК, Почта России</li>
         </ul>
       </div>
-        <div class="list__block"><img class="list__img laptop_2" src="./svgs/laptop-lupa.svg"></div>
+        <div class="list__block"><img class="list__img laptop_2" src="./svgs/laptop-lupa.svg" alt="CRM"></div>
         <div class="list__block">
         <p class="list__name">CRM</p>
         <ul class="list list-four">
@@ -232,21 +235,21 @@
     </section>
     <section class="prize">
       <div class="prize__container">
-        <img class="gold" src="./svgs/gold.svg">
+        <img class="gold" src="./svgs/gold.svg" alt="Битрикс">
         <div class="swiper-2 swiper-horizontal swiper-ios swiper-backface-hidden">
           <div class="swiper-wrapper wrapper-two">
             <div class="swiper-slide" role="group" aria-label="1 / 2">
               <div class="prize__card">
                 <p class="prize__title">Сертификат</p>
                 <p class="prize__text">Золотой сертифицированный <br> партнер битрикс</p>
-                <img class="prize__img" src="./svgs/sertif-1.png">
+                <img class="prize__img" src="./svgs/sertif-1.png" alt="Сертификат 1">
               </div>
             </div>
             <div class="swiper-slide" role="group" aria-label="2 / 2">
               <div class="prize__card">
                 <p class="prize__title">Сертификат</p>
                 <p class="prize__text">Программы мониторинга<br> качества внедрений</p>
-                <img class="prize__img" src="./svgs/sertif-2.png" >
+                <img class="prize__img" src="./svgs/sertif-2.png" alt="Сертификат 2">
               </div>
             </div>
           </div>
@@ -273,11 +276,11 @@
             заказчика.</p>
         </div>
         <div class="business__img">
-          <img src="./svgs/business.png">
+          <img src="./svgs/business.png" alt="Бизнес">
         </div>
       </div>
     </section>
-    <section><a name="steps__link"></a>
+    <section><a name="steps"></a>
       <h5>Этапы</h5>
       <div class="steps__container">
       <div class="steps">
@@ -295,7 +298,8 @@
               внешней и внутренней оптимизации сайта. Также мы создаем набор готовых элементов для пользовательского
               интерфейса.</p>
           </div>
-          <div class="step__image"><img src=".\svgs\step1.png"></div>
+          <img class="step__image__one" src=".\svgs\step1.png" alt="Анализ бизнеса">
+          <img class="step__image__one__laptop" src="./svgs/step1-laptop.png" alt="Анализ бизнеса">
         </div>
       </div>
       <div class="steps">
@@ -311,7 +315,7 @@
             <p>Мы подберем оптимальные цветовые сочетания (основной, дополнительные, акцентные цвета), уделим внимание
               четкости графики, наглядности интерфейса, понятной и лаконичной визуализации.</p>
           </div>
-          <div class="step__image"><img src="./svgs/step2.png"></div>
+          <img class="step__image__two" src="./svgs/step2.png" alt="Дизайн">
         </div>
       </div>
       <div class="steps">
@@ -328,7 +332,7 @@
             <p>Профессиональная адаптивная верстка является важным условием бесперебойной надежной работы сайта на
               протяжении длительного времени. </p>
           </div>
-          <div class="step__image"><img src="./svgs/step3.png"></div>
+          <img class="step__image__three" src="./svgs/step3.png" alt="Верстка">
         </div>
       </div>
       <div class="steps">
@@ -344,7 +348,7 @@
               управляете содержимым — редактируете новости, вносите коррективы в товары, добавляет фото и видеоконтент,
               модерируете и выполняете множество других действий, которые без CMS были бы сущим кошмаром.</p>
           </div>
-          <div class="step__image"><img src="./svgs/step4.png"></div>
+          <img class="step__image__four" src="./svgs/step4.png" alt="CMS">
         </div>
       </div>
       <div class="steps">
@@ -379,14 +383,13 @@
     </div>
     </section>
   </main>
-  <div class="business"><img class="business__picture" src="./svgs/office.png"></div>
+  <div class="business"><img class="business__picture" src="./svgs/office.png" alt="Офис"></div>
+  <a name="price"></a>
   <section class="company"><a name="form"></a>
     <div class="company__background">
-      <img class="background__picture-four" src="./svgs/cube3d.svg">
-      <img class="background__picture-five" src="svgs/thumbsup.svg">
-      <img class="background__picture-three" src="./svgs/donut.svg">
-      <img class="background__picture-one" src="./svgs/cube.svg">
-      <img class="background__picture-two" src="./svgs/rectangle.svg">
+      <img class="background__picture-four" src="./svgs/cube3d.png" alt="Куб 3D">
+      <img class="background__picture-one" src="./svgs/cube.svg" alt="Квадрат">
+      <img class="background__picture-two" src="./svgs/rectangle.png" alt="Ректангл">
       <div class="company__container-text">
         <div class="company__title">Компания <span>Millenium-</span></div>
         <div class="company__text">
@@ -406,34 +409,30 @@
         <input class="call__input" placeholder="Введите ваше имя">
         <input class="call__input" placeholder="+ 7 (999) 999 99 99">
         </div>
-        <button class="call__btn" type="submit">Перезвоните мне</button>
+        <button class="call__btn" type="submit"><img class="background__picture-three" src="./svgs/donut.svg" alt="Кольцо">Перезвоните мне</button>
         <div class="call__checkbox">
           <input type="checkbox">
           <label class="form__label"><span class="form__text">Cогласен/а на</span> обработку персональных <br> данных</label>
         </div>
       </form>
+      <img class="background__picture-five" src="svgs/thumbsup.svg" alt="Лайк">
     </div>
   </section>
    <footer><a name="footer"></a>
       <div class="footer__container">
           <div class="footer__text-container footer__block">
-              <p class="footer__text">Напишите нам</p>
-              <a class="accent__text footer__link" href="mailto:info@millenium.ru">info@millenium.ru</a>
-          </div>
-          <button type="button" class="footer__call footer__block">Заказать звонок</button>
+              <p class="footer__text">Напишите нам<br>
+              <a class="accent__text footer__mail" href="mailto:info@millenium.ru">info@millenium.ru</a></p>
+         <button type="button" class="footer__call">Заказать звонок</button></div>
           <div class="footer__messanger footer__block">
-              <a href="#"><img src="./svgs/telegram2.svg"></a><a href="#"><img src="./svgs/whatsapp2.svg"></a>
+              <div class="footer__social"><a href="#"><img src="./svgs/telegram2.svg" alt="Телеграмм2"></a><a href="#"><img src="./svgs/whatsapp2.svg" alt="whatsapp2"></a></div>
+          <p class="footer__address">Москва, ул. Профсоюзная 76, БЦ «ГАЛЕРЕЯ 76» 2 этаж<br><br><a class="footer__contact" href="tel:+74957926669">+7 (495) 792-66-69</a><br>пн-пт 10:00–19:00</p>
           </div>
-          <div class="footer__block">
-          <p class="footer__address">Москва, ул. Профсоюзная 76, БЦ «ГАЛЕРЕЯ 76» 2 этаж</p>
-          <p class="footer__contact"><a class="footer__contact" href="tel:+74957926669">+7 (495) 792-66-69</a> пн-пт 10:00–19:00</p>
-          </div>
-          <div class="footer__bottom footer__block">
-          <img class="footer__logo" src="./svgs/logo2.svg">
-          </a>
-          <div class="footer__copywrite footer__block">
+          <div class="footer__bottom">
+          <img class="footer__logo" src="./svgs/logo2.svg" alt="logo2">
+          <div class="footer__copywrite">
               <p>© 2018–2021 | Millenium - создание интернет-магазинов на 1С Битрикс</p>
-              <a class="footer__link" href="#">Политика конфиденциальности</p>
+              <p><a class="politics" href="#">Политика конфиденциальности</a></p>
           </div>
         </div>
       </div>
