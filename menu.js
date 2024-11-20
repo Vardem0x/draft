@@ -3,8 +3,11 @@ let burgerShow = true;
 let overlay = document.querySelector(".overlay");
 let close = document.querySelector(".close");
 let closeShow = false;
+let closeShowForm = false;
 let shadow = document.querySelector(".background__shadow");
 let body = document.querySelector("body");
+let applicationClose = document.querySelector(".application__close");
+let applicationShadow = document.querySelector(".application__shadow");
 
 burger.addEventListener("click", () => {
   if (burgerShow == false) {
@@ -55,5 +58,22 @@ shadow.addEventListener("click", () => {
     shadow.classList.add("shadow");
     body.style.overflow = "hidden";
     body.style.height = "100%";
+  }
+});
+
+document.querySelectorAll(".dialog").forEach((item) =>
+  item.addEventListener("click", function () {
+    closeShowForm = false;
+    applicationShadow.style.transform = "scale(1)";
+  })
+);
+
+applicationClose.addEventListener("click", () => {
+  if (closeShow == false) {
+    applicationShadow.style.transform = "scale(0)";
+    closeShowForm = true;
+  } else {
+    applicationShadow.style.transform = "scale(1)";
+    closeShowForm = false;
   }
 });

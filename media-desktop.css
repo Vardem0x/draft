@@ -89,6 +89,10 @@
     align-self: flex-start;
     padding-top: 5px;
   }
+  .application {
+    width: 766px;
+    height: 498px;
+  }
   .price {
     width: 275px;
     height: 60px;
@@ -392,6 +396,9 @@
   }
   .footer__call {
     align-self: flex-end;
+    margin: 0;
+    width: 341px;
+    height: 60px;
   }
   .footer__block:nth-child(2) {
     display: flex;
@@ -403,5 +410,20 @@
   .footer__bottom {
     display: flex;
     flex-direction: column;
+  }
+  .footer__messanger {
+    margin-top: 40px;
+  }
+  .footer__text-container {
+    border-bottom: 1px solid rgb(107, 90, 249);
+  }
+  .footer__text {
+    border-bottom: 0;
+  }
+  .business {
+    overflow: hidden;
+  }
+  .footer__copywrite {
+    width: 500px;
   }
 }

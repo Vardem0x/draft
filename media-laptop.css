@@ -31,6 +31,10 @@
     display: flex;
     order: 2;
   }
+  .application {
+    width: 532px;
+    height: 498px;
+  }
   .price {
     width: 275px;
     height: 60px;
@@ -268,13 +272,16 @@
     height: 171px;
     margin-bottom: 32px;
   }
+
   .footer__block:first-child {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 40px;
   }
   .footer__call {
     align-self: flex-end;
+    margin: 0;
   }
   .footer__block:nth-child(2) {
     display: flex;
@@ -289,6 +296,12 @@
   }
   .footer__text-container {
     border-bottom: 1px solid rgb(107, 90, 249);
+  }
+  .footer__text {
+    border: 0;
+  }
+  .business {
+    overflow: hidden;
   }
 }
 

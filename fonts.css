@@ -46,6 +46,52 @@ h3 {
   color: rgb(155, 143, 255);
 }
 
+.politics {
+  color: rgb(255, 255, 255);
+}
+
+.application__form > p {
+  color: rgb(42, 35, 103);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.application__label {
+  color: rgb(126, 126, 126);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.application__button {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.description > p {
+  color: rgb(152, 149, 180);
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 80%;
+  align-self: center;
+}
+
 .business__text {
   color: rgb(42, 35, 103);
   font-family: Montserrat;
@@ -342,7 +388,7 @@ h5 {
   font-weight: 700;
   line-height: 17px;
   letter-spacing: 0%;
-  text-align: left;
+  text-align: center;
   width: 310px;
 }
 
@@ -434,7 +480,10 @@ h5 {
     text-align: left;
   }
   .footer__text {
-    text-align: start;
+    text-align: left;
+  }
+  .footer__address {
+    text-align: left;
   }
   .step__title {
     font-size: 24px;
@@ -448,6 +497,9 @@ h5 {
     line-height: 22px;
     letter-spacing: 0%;
     text-align: left;
+  }
+  .description > p {
+    width: 411px;
   }
 }
 
@@ -491,6 +543,16 @@ h5 {
     letter-spacing: 0%;
     text-align: left;
     padding-bottom: 15px;
+  }
+  .description > p {
+    width: 411px;
+    color: rgb(152, 149, 180);
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: left;
   }
   .paragraph__one {
     font-family: Montserrat;

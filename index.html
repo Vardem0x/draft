@@ -46,7 +46,7 @@
             </div>
           </div>
           <div class="call__container">
-            <button class="call__button">
+            <button class="call__button dialog">
               Заказать звонок<img class="mobile__button" src=".\svgs\callbutton.svg" alt="callButton" />
             </button>
           </div>
@@ -79,6 +79,28 @@
         </div>
       </div>
   </aside>
+  <div class="application__shadow">
+  <dialog class="application" close open>
+    <button class="application__close"><img src=".\svgs\close.svg" alt="close"></button>
+    <form class="application__form">
+      <p>Заявка на консультацию</p>
+      <label class="application__label">
+       Ваше имя
+        <input class="application__input" type="text" placeholder="Введите ваше имя">
+      </label>
+      <label class="application__label">
+        Номер телефона
+         <input class="application__input" type="tel" placeholder="+ 7 (999) 999 99 99">
+      </label>
+         <button type="submit" class="application__button">Отправить</button>
+         <div class="description">
+         <p>Нажимая на кнопку «Отправить заявку», я даю согласие на обработку
+           персональных данных и соглашаюсь c политикой конфиденциальности</p>
+           <img src="./svgs/book.png">
+    </form>
+    </div>
+  </dialog> 
+</div>
   <main>
     <section>
       <a name="main"></a>
@@ -97,7 +119,7 @@
                 <span class="accent__text">выделит вас на фоне конкурентов</span>
               </p>
               <div class="price__container">
-                <button class="price">Узнать стоимость</button>
+                <button class="price dialog">Узнать стоимость</button>
               </div>
             </div>
             <p class="paragraph__two">
@@ -178,7 +200,7 @@
           <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span>
         </div>
         <button class="swiper__button"><img src="./svgs/swiper.svg" alt="swiper"/>
-        <button class="price__two">Узнать стоимость</button>
+        <button class="price__two dialog">Узнать стоимость</button>
       </div>
     </div>
     </section>
@@ -231,7 +253,7 @@
         </ul>
       </div>
       </div>
-      <button class="price__three">Узнать стоимость</button>
+      <button class="price__three dialog">Узнать стоимость</button>
     </section>
     <section class="prize">
       <div class="prize__container">
@@ -409,7 +431,7 @@
         <input class="call__input" placeholder="Введите ваше имя">
         <input class="call__input" placeholder="+ 7 (999) 999 99 99">
         </div>
-        <button class="call__btn" type="submit"><img class="background__picture-three" src="./svgs/donut.svg" alt="Кольцо">Перезвоните мне</button>
+        <button class="call__btn dialog" type="submit"><img class="background__picture-three" src="./svgs/donut.svg" alt="Кольцо">Перезвоните мне</button>
         <div class="call__checkbox">
           <input type="checkbox">
           <label class="form__label"><span class="form__text">Cогласен/а на</span> обработку персональных <br> данных</label>
@@ -423,13 +445,15 @@
           <div class="footer__text-container footer__block">
               <p class="footer__text">Напишите нам<br>
               <a class="accent__text footer__mail" href="mailto:info@millenium.ru">info@millenium.ru</a></p>
-         <button type="button" class="footer__call">Заказать звонок</button></div>
+         <button class="footer__call dialog">Заказать звонок</button></div>
           <div class="footer__messanger footer__block">
               <div class="footer__social"><a href="#"><img src="./svgs/telegram2.svg" alt="Телеграмм2"></a><a href="#"><img src="./svgs/whatsapp2.svg" alt="whatsapp2"></a></div>
           <p class="footer__address">Москва, ул. Профсоюзная 76, БЦ «ГАЛЕРЕЯ 76» 2 этаж<br><br><a class="footer__contact" href="tel:+74957926669">+7 (495) 792-66-69</a><br>пн-пт 10:00–19:00</p>
           </div>
           <div class="footer__bottom">
+            <a name="main" href=#main>
           <img class="footer__logo" src="./svgs/logo2.svg" alt="logo2">
+            </a>
           <div class="footer__copywrite">
               <p>© 2018–2021 | Millenium - создание интернет-магазинов на 1С Битрикс</p>
               <p><a class="politics" href="#">Политика конфиденциальности</a></p>
