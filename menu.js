@@ -61,7 +61,7 @@ shadow.addEventListener("click", () => {
   }
 });
 
-document.querySelectorAll(".dialog").forEach((item) =>
+/* document.querySelectorAll(".dialog").forEach((item) =>
   item.addEventListener("click", function () {
     closeShowForm = false;
     applicationShadow.style.transform = "scale(1)";
@@ -77,3 +77,13 @@ applicationClose.addEventListener("click", () => {
     closeShowForm = false;
   }
 });
+
+applicationShadow.addEventListener("click", () => {
+  if (closeShow == false) {
+    applicationShadow.style.transform = "scale(0)";
+    closeShowForm = true;
+  } else {
+    applicationShadow.style.transform = "scale(1)";
+    closeShowForm = false;
+  }
+}); */

@@ -24,10 +24,6 @@ html {
   transition-duration: 2s;
 }
 
-.application__shadow {
-  transform: scale(0);
-}
-
 .application {
   z-index: 11;
   position: fixed;
@@ -41,16 +37,6 @@ html {
 
 .application__form > P {
   margin-top: 10px;
-}
-
-.application__shadow {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.2);
-  z-index: 4;
 }
 
 .application__close {
@@ -690,4 +676,12 @@ aside {
 
 button:hover {
   background: rgb(159, 149, 255);
+}
+
+dialog::backdrop {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
 }
