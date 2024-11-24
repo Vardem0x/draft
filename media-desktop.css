@@ -426,4 +426,13 @@
   .footer__copywrite {
     width: 500px;
   }
+  .gold {
+    width: 359px;
+    height: 438px;
+    margin: 0;
+  }
+  .prize__container {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
