@@ -46,7 +46,7 @@
             </div>
           </div>
           <div class="call__container">
-            <button class="call__button" onclick="showModal()">
+            <button class="call__button dialog">
               Заказать звонок<img class="mobile__button" src=".\svgs\callbutton.svg" alt="callButton" />
             </button>
           </div>
@@ -79,9 +79,8 @@
         </div>
       </div>
   </aside>
-  
   <dialog class="application" id="showModal">
-    <button class="application__close" onclick="closeModal()"><img src=".\svgs\close.svg" alt="close"></button>
+    <button class="application__close dialog"><img src=".\svgs\close.svg" alt="close"></button>
     <form class="application__form">
       <p>Заявка на консультацию</p>
       <label class="application__label">
@@ -118,7 +117,7 @@
                 <span class="accent__text">выделит вас на фоне конкурентов</span>
               </p>
               <div class="price__container">
-                <button class="price" onclick="showModal()">Узнать стоимость</button>
+                <button class="price dialog">Узнать стоимость</button>
               </div>
             </div>
             <p class="paragraph__two">
@@ -130,8 +129,7 @@
           </div>
         </div>
     </section>
-    <section>
-      <a name="sell"></a>
+    <section id="sell">
       <h2 class="title">Мы создаем интернет-магазины, <span class="accent__text">которые продают<span></h2>
       <div class="card-container">
       <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
@@ -199,12 +197,11 @@
           <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span>
         </div>
         <button class="swiper__button"><img src="./svgs/swiper.svg" alt="swiper"/>
-        <button class="price__two" onclick="showModal()">Узнать стоимость</button>
+        <button class="price__two dialog">Узнать стоимость</button>
       </div>
     </div>
     </section>
-    <section>
-      <a name="received"></a>
+    <section id="received">
       <h3>Что вы <span class="accent__text">получаете?</span></h3>
       <div class="list__container">
         <div class="list__block">
@@ -252,7 +249,7 @@
         </ul>
       </div>
       </div>
-      <button class="price__three" onclick="showModal()">Узнать стоимость</button>
+      <button class="price__three dialog">Узнать стоимость</button>
     </section>
     <section class="prize">
       <div class="prize__container">
@@ -443,7 +440,7 @@
           <div class="footer__text-container footer__block">
               <p class="footer__text">Напишите нам<br>
               <a class="accent__text footer__mail" href="mailto:info@millenium.ru">info@millenium.ru</a></p>
-         <button class="footer__call" onclick="showModal()">Заказать звонок</button></div>
+         <button class="footer__call dialog">Заказать звонок</button></div>
           <div class="footer__messanger footer__block">
               <div class="footer__social"><a href="#"><img src="./svgs/telegram2.svg" alt="Телеграмм2"></a><a href="#"><img src="./svgs/whatsapp2.svg" alt="whatsapp2"></a></div>
           <p class="footer__address">Москва, ул. Профсоюзная 76, БЦ «ГАЛЕРЕЯ 76» 2 этаж<br><br><a class="footer__contact" href="tel:+74957926669">+7 (495) 792-66-69</a><br>пн-пт 10:00–19:00</p>
